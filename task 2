@@ -1,0 +1,53 @@
+Question 1 - answer = b) using <link> tag
+Question 2 - answer = b) using p tag
+Question 3 - answer = b) false
+Question 4 - answer = a) true
+Question 5 - answer = c) 10000000000
+Question 6 - answer = // a)
+const people = [
+
+    { id: 1, name: "John", age: 30},
+    
+    { id: 2, name: "Jane", age: 25 },
+    
+    { id: 3, name: "Bob", age: 40 },
+    
+    ];
+    const names = people.map((person) => person.name);
+    console.log(names);    
+    // b)
+    const peopleWithSalary = people.map((person) > ({ ...person, salary: 50000 }));
+    console.log(peopleWithSalary);
+    // c)
+    const above30 = people
+    .filter((person) > person.age > 30)
+    .map((person) => ({ name: person.name, age: person.age }));
+    console.log(above36);
+Question 7 - answer = const cb1 = (a, b) => a + b;
+
+const cb2 = (a, b) => a - b;
+
+function main(cb1, cb2, x, y) {
+
+const sum = cb1(x, y);
+
+const difference = cb2(x, y);
+
+console.log('Sum: ${sum}');
+
+console.log('Difference: ${difference)`);
+
+}
+
+const x = 11;
+
+const y = 4;
+
+main(cb1, cb2, x, y);
+Question 8 - answer = c)map function
+Question 9 - there is no such question in pdf 
+Question 10 - answer = C)[]
+Question 11- answer = B)display : none removes the element from the dom
+while visibility : hidden just hides the element.
+Question 12- answer = A)4 10 18
+Question 13- answer = A) [1,2,3,4]
